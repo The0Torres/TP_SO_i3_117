@@ -1,9 +1,13 @@
+ HEAD
 Bengoa
 09:19
+Theo Torres
+
 enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
         inet6 fe80::72:eeff:fee2:edce  prefixlen 64  scopeid 0x20<link>
         ether 02:72:ee:e2:ed:ce  txqueuelen 1000  (Ethernet)
+HEAD
         RX packets 150093  bytes 207284713 (207.2 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 39684  bytes 2932385 (2.9 MB)
@@ -16,13 +20,53 @@ enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         RX packets 16  bytes 960 (960.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 29  bytes 2206 (2.2 KB)
+=======
+        RX packets 1324  bytes 609055 (609.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 914  bytes 133810 (133.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.56.3  netmask 255.255.255.0  broadcast 192.168.56.255
+        inet6 fe80::a00:27ff:fe86:54f0  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:86:54:f0  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 15  bytes 1206 (1.2 KB)
+
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
+ HEAD
         RX packets 138  bytes 13996 (13.9 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 138  bytes 13996 (13.9 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        RX packets 18  bytes 1836 (1.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 18  bytes 1836 (1.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+17:31
+Micaela Vazquez 
+eth0      Link encap:Ethernet  HWaddr 08:00:27:c4:9c:80  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fec4:9c80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:24 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:117 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3316 (3.3 KB)  TX bytes:17478 (17.4 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:22 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:22 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1749 (1.7 KB)  TX bytes:1749 (1.7 KB)
+23:40
+
