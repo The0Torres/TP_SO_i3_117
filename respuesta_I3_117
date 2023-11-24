@@ -4,3 +4,20 @@ b)Beta pudo ver todos los cambios que se realizaron.
 c)git checkout main
   git merge vazquez
   git push origin main
+Gamma
+d) Las ramas quedan con los datos antes de hacer el merge,ya que en ese punto se deja de utilizar la rama en el caso de
+la consigna del tp.
+
+e) No tuvimos problemas ya que no se generaron conflictos con los archivos.
+
+f) Todos los comandos para realizar punto 7
+-git checkout main
+-git pull
+-git branch
+-git branch -a
+-git checkout Torres
+-ipconfig
+-git status
+-git add -A
+-git commit -m "Interaccion 3 Punto 7 Gamma"
+-git push
